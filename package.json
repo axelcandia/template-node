@@ -1,0 +1,35 @@
+{
+  "name": "Demo",
+  "version": "0.0",
+  "description": "This is a basic proyect test",
+  "scripts": {
+    "test": "./bin/test.sh",
+    "start": "./app/server.js | bistre",
+    "lint": "standard"
+  },
+  "main": "./app/server",
+  "engines": {
+    "node": "6"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "express.js",
+    "scaffolding"
+  ],
+  "author": "Axel Alen Candia", 
+  "dependencies": {
+    "bole": "3.0.2",
+    "express": "4.15.2",
+    "pug": "2.0.0-beta6"
+  },
+  "devDependencies": {
+    "bistre": "1.0.1",
+    "standard": "9.0.1",
+    "supertest": "3.0.0",
+    "tap-dot": "1.0.5",
+    "tape": "4.6.3"
+  }
+}
