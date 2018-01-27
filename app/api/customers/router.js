@@ -1,6 +1,6 @@
-var customer = require('./customer-model')
-var log = require('bole')('customers/router')
-var router = require('express').Router()
+var customer  = require('./customers.server.model')
+var log       = require('bole')('customers/router')
+var router    = require('express').Router()
 
 function getCustomers (req, res) {
   customer.findAll(function (error, customers) {

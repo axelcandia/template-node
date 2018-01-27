@@ -19,11 +19,11 @@
     "express.js",
     "scaffolding"
   ],
-  "author": "Axel Alen Candia", 
+  "author": "Axel Alen Candia",
   "dependencies": {
-    "bole": "3.0.2",
-    "express": "4.15.2",
-    "pug": "2.0.0-beta6"
+    "bole": "^3.0.2",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
     "bistre": "1.0.1",
