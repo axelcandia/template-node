@@ -9,9 +9,6 @@ module.exports = function() {
     });
 	db.connection.on('error', function() {
     console.log('MongoDB Connection Error. Please make sure that MongoDB is running.');
-    }); 
-	//require('../app/models/user.server.model');
-	//require('../app/models/credentials.server.model');
-	//require('../models/website.server.model');
+    });  
 	return db;
 };  
